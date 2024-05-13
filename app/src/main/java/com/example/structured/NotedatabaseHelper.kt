@@ -8,7 +8,7 @@ class NotedatabaseHelper(context:Context) :SQLiteOpenHelper(context,DATABASE_NAM
 
 
     companion object{
-        private const val DATABASE_NAME = "db"
+        private const val DATABASE_NAME = "ToDoPlus.db"
         private const val DATABASE_VERSION = 1
         private const val TABLE_NAME = "allnotes"
         private const val COLUMN_ID = "id"
